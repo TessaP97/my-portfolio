@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hvac Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b1f19b57bb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/frosty.ico">
+</head>
+<body>
+    <!---Nav Bar-->
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">HVAC</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="/services.html" class="navbar__link">Services</a>
+            <a href="/maintenance.html" class="navbar__link">Maintenance Plans</a>
+            <a href="/about.html" class="navbar__link">Who we are</a>
+            <a href="/contact.html" class="navbar__link">Contact</a>
+        </div>
+    </nav>
+    <!----- Services ----->
+    <div class="services">
+        <div class="services__container">
+            <div>
+                <p class="topline animate-services">Services</p>
+                <h1 class="services__heading animate-services">What we offer</h1>
+                <div class="services__features">
+                    <p class="services__feature animate-services">
+                        <i class="fas fas fa-tools"></i> Scheduled Maintenance Plans
+                    </p>
+                    <p class="services__feature animate-services">
+                        <i class="fas fas fa-tools"></i> Duct Work
+                    </p>
+                    <p class="services__feature animate-services">
+                        <i class="fas fas fa-tools"></i> Installation
+                    </p>
+                    <p class="services__feature animate-services">
+                        <i class="fas fas fa-tools"></i> Repairs
+                    </p>
+                    <p class="services__feature animate-services">
+                        <i class="fas fas fa-tools"></i> Planning & Design
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="./images/hvac2.jpg" alt="ductwork" class="services__img">
+            </div>
+        </div>
+    </div>
+    <!----- email section ----->
+    <div class="email">
+        <div class="email__content">
+            <h1 class="animate-email">Contact Us</h1>
+            <p class="animate-email">Email us here for a free consultation!</p>
+            <form action="#">
+                <div class="form__wrap">
+                    <label for="email">
+                        <input type="email" id="email" placeholder="Enter Your Email">
+                    </label>
+                    <button class="button" type="submit">submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!------ footer section ------>
+    <div class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>Hvac</h1>
+                <p>Commercial & industrial Hvac</p>
+                <p id="phone">123-321-3120</p>
+            </div>
+            <div class="footer__links">
+                <div class="footer__title">Contact us</div>
+                <a href="/services.html" class="footer__link">Contact</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
