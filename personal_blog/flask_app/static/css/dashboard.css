@@ -1,0 +1,74 @@
+body {
+    background-image: url("/static/images/desk.jpg") !important ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 0;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.user-greeting {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.nav a {
+    color: gray;
+    font-size: 24px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+
+.header-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+} 
+
+.content {
+    margin-top: 20px ;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: whitesmoke;
+}
+
+.content h3 {
+    margin-bottom: 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+}
+
+
+.table th {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 26px;
+}
+
+.table td a {
+    color: gray;
+}
+
+.table td a:hover {
+    color: lightseagreen; 
+}

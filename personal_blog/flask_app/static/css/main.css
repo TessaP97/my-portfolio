@@ -1,0 +1,68 @@
+body {
+    background-image: url("/static/images/index-bg.jpg") !important ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.page-header {
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+.page-header h1 {
+    font-size: 64px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 45px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 900px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-top: black solid 2px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.register {
+    width: 400px;
+}
+
+.login {
+    width: 200px;
+}
+
+.register, .login {
+    padding: 15px 10px;
+    margin: 250px;
+}
+
+.form-label {
+    color: black;
+}
+
+.register h2 , .login h2  {
+    color: black;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 42px;
+    margin-top: 40px;
+}
